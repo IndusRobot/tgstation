@@ -1,0 +1,21 @@
+{
+    "map_name": "Colony-17",
+    "map_path": "map_files/Colony17",
+    "map_file": ["underground.dmm", "surface.dmm", "sky.dmm"],
+    "space_ruin_levels": 0,
+    "space_empty_levels": 0,
+    "mine_type": null,
+
+    "traits":[
+      {"Up": 1, "Lava Ruins": true, "mining": true, "Linkage": null},
+      {"Up": 1, "Down": -1, "Station": true, "Linkage": null, "Space Ruins": true},
+      {"Down": -1, "mining": true, "Linkage": null}],
+
+
+    "shuttles": {
+      "cargo": "cargo_box",
+      "ferry": "ferry_fancy",
+      "whiteship": "whiteship_meta",
+      "emergency": "emergency_box"
+    }
+}
